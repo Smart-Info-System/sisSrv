@@ -8,10 +8,22 @@ erl_crash.dump
 # rebar 2.x
 .rebar
 rel/example_project
-ebin/*.beam
+ebin/*
 deps
 
 # rebar 3
 .rebar3
 _build/
 _checkouts/
+rebar.lock
+
+# idea
+.idea
+*.iml
+cmake-build*
+CMakeLists.txt
+
+# nif compile temp file
+*.pdb
+*.d
+compile_commands.json
